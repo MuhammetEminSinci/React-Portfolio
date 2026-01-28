@@ -1,3 +1,7 @@
+import proje1 from '../assets/e-commerce.png'; 
+import proje2 from '../assets/todo-app.png';
+import proje3 from '../assets/landing-page.png';
+
 export const projects = [
   {
     id: 1,
@@ -6,7 +10,7 @@ export const projects = [
     tech: ["React", "Context API", "Tailwind CSS"],
     githubLink: "https://github.com/MuhammetEminSinci/React-E-Commerce-App",
     demoLink: "https://react-e-commerce-app-three.vercel.app/",
-    image: "src/assets/e-commerce.png"
+    image: proje1
   },
   {
     id: 2,
@@ -15,7 +19,7 @@ export const projects = [
     tech: ["React", "JavaScript", "CSS3"],
     githubLink: "https://github.com/MuhammetEminSinci/react-todo-app",
     demoLink: "https://react-todo-app-two-kappa.vercel.app/",
-    image: "src/assets/todo-app.png"
+    image: proje2
   },
   {
     id: 3,
@@ -24,6 +28,6 @@ export const projects = [
     tech: ["React", "Vite", "Responsive Design"],
     githubLink: "https://github.com/MuhammetEminSinci/react-landing-page",
     demoLink: "https://react-landing-page-seven-dun.vercel.app/",
-    image: "src/assets/landing-page.png"
+    image: proje3
   }
 ];
